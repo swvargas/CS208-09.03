@@ -1,25 +1,26 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>CS208 - Starter Code (UPDATE ME)!</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <h1>HTML Rocks!!</h1>
-  <ul>
-  <li><a href="/hello">Click here to say hello</a></li>
-  <li><button id="hello-link">Click Me!</button></li>
-  <li><button id="joke-button">Dad Joke!</button></li>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="username">Username</label>
+      <input type="text" id="username" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
   <script src="script.js"></script>
-  </ul>
-  <img src="funny.png" alt="Funny Image" width="300" height="200">
-
-  <h2 id="joke-display"></h2>
 </body>
-
 </html>
+
